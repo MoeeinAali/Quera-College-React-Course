@@ -13,14 +13,28 @@ This repository provides a curated collection of codes and learning resources fo
 
 ## Syllabus
 - Introduction
-- Basic rules
-- Advanced concepts
-- Functional programming
-- Object oriented programming
-- Generics
-- The final project
-- TypeScript in React
-- Typescript in industry
+- JavaScript Overview
+- Introduction to TypeScript
+- Getting Started with React
+- Components and TSX
+- Working with Hooks - Part 1
+- Working with Hooks - Part 2
+- Debugging React Applications
+- Advanced Components
+- Styling Components
+- Working with React Router
+- Project 1: Employee Management
+- Fetching Data from Server
+- Working with Forms
+- Working with React Hook Form
+- How React Works
+- Project 2: GitHub Clone
+- Working with Redux Toolkit
+- Building a React Project
+- Deploying
+- React in the Industry
+
+
 
 ## Lectures
 
