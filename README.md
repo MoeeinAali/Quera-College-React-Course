@@ -1,24 +1,26 @@
-# {Name of Institution}-{Name of Course}
-This repository provides a curated collection of notebooks and learning resources focused on {Course Name}, sourced from {Source Name}/taught by {name}.
+## ![کوئرا](https://user-images.githubusercontent.com/49264993/137637114-e0687e95-08eb-4181-98b0-56fe515f6bc7.png) -  React
+This repository provides a curated collection of codes and learning resources focused on TypeScript Programming, sourced from Quera College.
 
 ## Table of Contents
 
-- [Syllabus](#Syllabus)
-- [Lectures](#slides)
-- [Notebooks](#notebook)
+- [Syllabus](#syllabus)
+- [Lectures](#lectures)
+- [Notebooks](#notebooks)
 - [Assignments](#assignments)
 - [Exams](#exams)
 - [Maintainer](#maintainer)
+- [Notes](#notes)
 
 ## Syllabus
-- **Titr**
-    - subTitr
-    - subTitr
-
-
-- **Titr**
-  - subTitr
-  - subTitr
+- Introduction
+- Basic rules
+- Advanced concepts
+- Functional programming
+- Object oriented programming
+- Generics
+- The final project
+- TypeScript in React
+- Typescript in industry
 
 ## Lectures
 
