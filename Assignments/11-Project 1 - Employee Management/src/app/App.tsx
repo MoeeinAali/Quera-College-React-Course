@@ -1,7 +1,7 @@
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route
+    BrowserRouter as Router,
+    Routes,
+    Route, Navigate
 } from 'react-router-dom';
 
 
@@ -10,26 +10,27 @@ import Dashboard from '../pages/dashboard/dashboard';
 import Users from '../pages/users/users';
 import CreateUser from '../pages/createUser/createUser';
 
-import { UserProvider } from '../context/User.Context';
+import {UserProvider} from '../context/User.Context';
 import EditUser from '../pages/editUser/editUser';
+
 function App() {
 
-  return (
-    <UserProvider>
-      <Router>
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/createuser" element={<CreateUser />} />
-          <Route path="/edituser/:id" element={<EditUser />} />
+    return (
+        <UserProvider>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Navigate to="/login"></Navigate>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/dashboard" element={<Dashboard/>}/>
+                    <Route path="/users" element={<Users/>}/>
+                    <Route path="/createuser" element={<CreateUser/>}/>
+                    <Route path="/edituser/:id" element={<EditUser/>}/>
+                </Routes>
+            </Router>
+            {/* {token ? null : <Login />} */}
+        </UserProvider>
 
-        </Routes>
-      </Router>
-      {/* {token ? null : <Login />} */}
-    </UserProvider>
-
-  );
+    );
 }
 
 export default App;

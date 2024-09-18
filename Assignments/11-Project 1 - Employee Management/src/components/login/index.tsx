@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 
 import logo from '../../assets/images/logo/logo.png'
 
 import LoginForm from './loginForm/LoginForm'
 
-import { useNavigate } from 'react-router-dom'
-import { setItem } from '../../core/storage/storage'
+import {useNavigate} from 'react-router-dom'
+import {setItem} from '../../core/storage/storage'
 import Alert from '../alert/alert'
-import { useUsers } from '../../context/User.Context'
+import {useUsers} from '../../context/User.Context'
 
 const LoginHolder = () => {
-    const { users } = useUsers()
+    const {users} = useUsers()
     const [userName, setUserName] = useState<string>("")
     const [password, setPassword] = useState<string>("")
     const [success, setSuccess] = useState<boolean | null>(null) // Set to actual null, not "null"
@@ -43,9 +43,9 @@ const LoginHolder = () => {
                     Sign In To Quera Employe Management
                 </h2>
             </div>
-            {success === true && <Alert message={'Login Successful'} />}
-            {success === false && <Alert error={true} errorMessage="Username Or Password Is Invalid" />}
-            <LoginForm setUsername={setUserName} setPassword={setPassword} onClick={login} />
+            {success === true && <Alert message={'Login Successful'}/>}
+            {success === false && <Alert error={true} errorMessage="Username Or Password Is Invalid"/>}
+            <LoginForm setUsername={setUserName} setPassword={setPassword} onClick={login}/>
 
         </div>
     )
