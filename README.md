@@ -4,10 +4,7 @@ This repository provides a curated collection of codes and learning resources fo
 ## Table of Contents
 
 - [Syllabus](#syllabus)
-- [Lectures](#lectures)
-- [Notebooks](#notebooks)
 - [Assignments](#assignments)
-- [Exams](#exams)
 - [Maintainer](#maintainer)
 - [Notes](#notes)
 
@@ -34,23 +31,9 @@ This repository provides a curated collection of codes and learning resources fo
 - Deploying
 - React in the Industry
 
-
-
-## Lectures
-
-In the "Lectures" folder, you will find the course **lectures**.
-
-## Notebooks
-
-In the "Notebooks" folder, you will find **notebooks** related to the course.
-
 ## Assignments
 
 In the "Assignments" folder, you will find the course **assignments**.
-
-## Exams
-
-In the "Exams" folder, you will find the course **Exams**.
 
 ## Maintainer
 
